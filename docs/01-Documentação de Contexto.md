@@ -1,46 +1,47 @@
-# Introdução
+# Introdução 
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O projeto Libris propõe o desenvolvimento de uma aplicação voltada para o gerenciamento pessoal de livros. Em um contexto em que o número de leitores cresce constantemente e o acesso aos livros, tanto físicos quanto digitais, se torna cada vez mais amplo, muitos leitores enfrentam dificuldades em organizar suas coleções. O problema é ainda mais evidente para leitores assíduos, que acumulam grandes volumes de obras e sentem necessidade de um controle eficiente sobre o que já leram, o que ainda pretendem ler e o que desejam adquirir. 
 
-## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+A aplicação surge com o objetivo de centralizar e facilitar essa organização, permitindo o cadastro de títulos, categorização por gênero, editora, autor e formato, além de agregar informações automaticamente por meio de APIs externas. Assim, o sistema busca otimizar a experiência de leitura e tomada de decisão quanto à próxima leitura, além de prevenir perdas de livros emprestados e esquecidos. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+O público-alvo da aplicação é composto por leitores de todas as idades e regiões, que tenham o hábito de manter coleções de livros de porte médio a grande. Com foco na simplicidade e acessibilidade, o sistema pretende atender tanto usuários com conhecimento básico em tecnologia quanto aqueles com maior domínio de ferramentas digitais. 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+## Problema 
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Leitores assíduos frequentemente enfrentam dificuldades na organização de suas bibliotecas pessoais. Problemas comuns incluem a falta de controle sobre os livros já lidos, os que ainda serão lidos e os que foram emprestados a terceiros. Essa falta de organização pode levar à compra duplicada de títulos, perda de livros e dificuldade para definir qual será a próxima leitura. 
 
-## Objetivos
+Esses desafios tornam-se mais evidentes à medida que o número de livros aumenta, sendo comum que leitores percam o controle de sua coleção. Em um cenário onde a leitura é uma prática constante e valorizada, é essencial dispor de ferramentas que auxiliem na gestão dessas informações de forma prática, acessível e intuitiva. 
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
-## Justificativa
+## Objetivos 
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+**Objetivo Geral** 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+ Desenvolver uma aplicação web para facilitar o gerenciamento de livros pessoais, permitindo ao usuário cadastrar, classificar e acompanhar seu acervo literário. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+**Objetivos Específicos** 
 
-## Público-Alvo
+- Implementar filtros por categoria, autor, editora, gênero e formato (físico ou digital). 
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+- Permitir a importação automática de informações dos livros por meio de integração com APIs. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+- Disponibilizar uma interface clara e intuitiva para visualização da estante pessoal do usuário. 
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+- Permitir o controle de empréstimos e status de leitura de cada livro 
+
+## Justificativa 
+
+A escolha por desenvolver o Libris parte da observação de dificuldades enfrentadas por leitores que possuem grandes quantidades de livros. A ausência de um sistema eficaz de controle pode gerar desorganização, dificultar a tomada de decisão sobre novas leituras e até mesmo causar perdas. 
+
+Com base em experiências pessoais e relatos de usuários, percebe-se que há uma demanda por ferramentas práticas que centralizem essas informações. Além disso, a automatização do processo de cadastro e organização dos livros pode economizar tempo e oferecer mais segurança para quem deseja manter o controle de sua biblioteca pessoal. 
+
+A aplicação busca suprir essa lacuna oferecendo um ambiente digital acessível, com funcionalidades úteis e focadas no cotidiano do leitor. O desenvolvimento do projeto também representa uma oportunidade de aplicar conhecimentos técnicos em análise e desenvolvimento de sistemas, visando a resolução de um problema real. 
+
+## Público-Alvo 
+
+O Libris é direcionado a pessoas que mantêm um hábito de leitura regular e que possuem coleções de livros em formato físico, digital ou ambos. O público-alvo engloba leitores de todas as idades e regiões, com diferentes níveis de familiaridade com tecnologia, mas que compartilham o interesse por uma organização mais eficaz de seus acervos literários. 
+
+Embora o sistema seja pensado para usuários individuais, ele pode, futuramente, se estender para pequenos clubes de leitura ou instituições educacionais. Entre os perfis identificados estão estudantes, professores, profissionais liberais e aposentados, todos com o hábito comum da leitura e o desejo de manter um melhor controle sobre seus livros. 
+
+ 
